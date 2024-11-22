@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "estadistica_descriptiva.html",
+    "href": "estadistica_descriptiva.html",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "La estadística descriptiva organiza, resume y presenta la información contenida en un conjunto de datos, proporcionando una visión general de sus características principales. A continuación, se presentan los conceptos fundamentales.\n\n\n\n\nLa media es el promedio de los valores en un conjunto de datos y se calcula como:\n\\[\n\\bar{x} = \\frac{1}{n} \\sum_{i=1}^n x_i\n\\]\ndonde: - \\(n\\): número total de observaciones, - \\(x_i\\): valor de la \\(i\\)-ésima observación.\n\n\n\nLa mediana es el valor central en un conjunto de datos ordenados. Si el número de observaciones (\\(n\\)) es impar:\n\\[\n\\text{Mediana} = x_{\\left(\\frac{n+1}{2}\\right)}\n\\]\nSi \\(n\\) es par, se calcula como el promedio de los dos valores centrales:\n\\[\n\\text{Mediana} = \\frac{x_{\\left(\\frac{n}{2}\\right)} + x_{\\left(\\frac{n}{2}+1\\right)}}{2}\n\\]\n\n\n\nLa moda es el valor que aparece con mayor frecuencia en el conjunto de datos.\n\n\n\n\n\n\nLa varianza mide la dispersión de los datos respecto a la media:\n\\[\ns^2 = \\frac{1}{n-1} \\sum_{i=1}^n (x_i - \\bar{x})^2\n\\]\n\n\n\nLa desviación estándar es la raíz cuadrada de la varianza:\n\\[\ns = \\sqrt{s^2}\n\\]\n\n\n\nEl rango es la diferencia entre el valor máximo y el valor mínimo en el conjunto de datos:\n\\[\n\\text{Rango} = x_{\\text{max}} - x_{\\text{min}}\n\\]\n\n\n\nLa asimetría evalúa la simetría de la distribución:\n\\[\ng_1 = \\frac{\\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^3}{s^3}\n\\]\n\n\n\nLa curtosis mide la concentración de los valores en los extremos de la distribución:\n\\[\ng_2 = \\frac{\\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^4}{s^4} - 3\n\\]\n\n\n\n\n\n\nConvierte valores a una escala estándar con media 0 y desviación estándar 1:\n\\[\nz_i = \\frac{x_i - \\bar{x}}{s}\n\\]\n\n\n\nAjusta los datos al rango \\([0,1]\\):\n\\[\nx_i' = \\frac{x_i - x_{\\text{min}}}{x_{\\text{max}} - x_{\\text{min}}}\n\\]\n\n\n\n\n\n\nEvalúan visualmente si los datos se ajustan a una distribución normal al comparar cuantiles observados con los teóricos.\n\n\n\nContrasta la hipótesis de normalidad:\n\\[\nW = \\frac{\\left( \\sum_{i=1}^n a_i x_{(i)} \\right)^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2}\n\\]\n\n\n\nEvalúa la diferencia máxima entre la función de distribución empírica y la teórica:\n\\[\nD = \\sup_x |F_n(x) - F(x)|\n\\]\ndonde: - \\(F_n(x)\\): función de distribución empírica, - \\(F(x)\\): función de distribución teórica.\n\n\n\n\nLa estadística descriptiva también utiliza herramientas visuales como: - Histogramas, - Diagramas de caja y bigotes, - Gráficos Q-Q.\nEstos conceptos son esenciales para describir un conjunto de datos antes de aplicar métodos estadísticos más avanzados.\n\n\n\n\n\n# Crear un vector de datos\ndatos &lt;- c(10, 15, 20, 25, 30)\n\n# Calcular medidas descriptivas\nmean(datos)    # Media\n\n[1] 20\n\nmedian(datos)  # Mediana\n\n[1] 20\n\nsd(datos)      # Desviación estándar\n\n[1] 7.905694\n\n# Crear un histograma de los datos\nhist(datos,\n     main = \"Distribución de los Datos\",\n     xlab = \"Valores\",\n     ylab = \"Frecuencia\",\n     col = \"lightblue\",\n     border = \"black\")"
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#medidas-de-tendencia-central",
+    "href": "estadistica_descriptiva.html#medidas-de-tendencia-central",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "La media es el promedio de los valores en un conjunto de datos y se calcula como:\n\\[\n\\bar{x} = \\frac{1}{n} \\sum_{i=1}^n x_i\n\\]\ndonde: - \\(n\\): número total de observaciones, - \\(x_i\\): valor de la \\(i\\)-ésima observación.\n\n\n\nLa mediana es el valor central en un conjunto de datos ordenados. Si el número de observaciones (\\(n\\)) es impar:\n\\[\n\\text{Mediana} = x_{\\left(\\frac{n+1}{2}\\right)}\n\\]\nSi \\(n\\) es par, se calcula como el promedio de los dos valores centrales:\n\\[\n\\text{Mediana} = \\frac{x_{\\left(\\frac{n}{2}\\right)} + x_{\\left(\\frac{n}{2}+1\\right)}}{2}\n\\]\n\n\n\nLa moda es el valor que aparece con mayor frecuencia en el conjunto de datos."
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#medidas-de-dispersión",
+    "href": "estadistica_descriptiva.html#medidas-de-dispersión",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "La varianza mide la dispersión de los datos respecto a la media:\n\\[\ns^2 = \\frac{1}{n-1} \\sum_{i=1}^n (x_i - \\bar{x})^2\n\\]\n\n\n\nLa desviación estándar es la raíz cuadrada de la varianza:\n\\[\ns = \\sqrt{s^2}\n\\]\n\n\n\nEl rango es la diferencia entre el valor máximo y el valor mínimo en el conjunto de datos:\n\\[\n\\text{Rango} = x_{\\text{max}} - x_{\\text{min}}\n\\]\n\n\n\nLa asimetría evalúa la simetría de la distribución:\n\\[\ng_1 = \\frac{\\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^3}{s^3}\n\\]\n\n\n\nLa curtosis mide la concentración de los valores en los extremos de la distribución:\n\\[\ng_2 = \\frac{\\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^4}{s^4} - 3\n\\]"
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#transformaciones-y-estandarización",
+    "href": "estadistica_descriptiva.html#transformaciones-y-estandarización",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "Convierte valores a una escala estándar con media 0 y desviación estándar 1:\n\\[\nz_i = \\frac{x_i - \\bar{x}}{s}\n\\]\n\n\n\nAjusta los datos al rango \\([0,1]\\):\n\\[\nx_i' = \\frac{x_i - x_{\\text{min}}}{x_{\\text{max}} - x_{\\text{min}}}\n\\]"
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#pruebas-de-normalidad",
+    "href": "estadistica_descriptiva.html#pruebas-de-normalidad",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "Evalúan visualmente si los datos se ajustan a una distribución normal al comparar cuantiles observados con los teóricos.\n\n\n\nContrasta la hipótesis de normalidad:\n\\[\nW = \\frac{\\left( \\sum_{i=1}^n a_i x_{(i)} \\right)^2}{\\sum_{i=1}^n (x_i - \\bar{x})^2}\n\\]\n\n\n\nEvalúa la diferencia máxima entre la función de distribución empírica y la teórica:\n\\[\nD = \\sup_x |F_n(x) - F(x)|\n\\]\ndonde: - \\(F_n(x)\\): función de distribución empírica, - \\(F(x)\\): función de distribución teórica."
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#representación-gráfica",
+    "href": "estadistica_descriptiva.html#representación-gráfica",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "La estadística descriptiva también utiliza herramientas visuales como: - Histogramas, - Diagramas de caja y bigotes, - Gráficos Q-Q.\nEstos conceptos son esenciales para describir un conjunto de datos antes de aplicar métodos estadísticos más avanzados."
+  },
+  {
+    "objectID": "estadistica_descriptiva.html#ejemplo-código-en-r-y-resultados",
+    "href": "estadistica_descriptiva.html#ejemplo-código-en-r-y-resultados",
+    "title": "Estadística Descriptiva",
+    "section": "",
+    "text": "# Crear un vector de datos\ndatos &lt;- c(10, 15, 20, 25, 30)\n\n# Calcular medidas descriptivas\nmean(datos)    # Media\n\n[1] 20\n\nmedian(datos)  # Mediana\n\n[1] 20\n\nsd(datos)      # Desviación estándar\n\n[1] 7.905694\n\n# Crear un histograma de los datos\nhist(datos,\n     main = \"Distribución de los Datos\",\n     xlab = \"Valores\",\n     ylab = \"Frecuencia\",\n     col = \"lightblue\",\n     border = \"black\")"
+  }
+]
