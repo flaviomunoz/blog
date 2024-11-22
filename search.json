@@ -47,5 +47,124 @@
     "title": "Estadística Descriptiva",
     "section": "",
     "text": "# Crear un vector de datos\ndatos &lt;- c(10, 15, 20, 25, 30)\n\n# Calcular medidas descriptivas\nmean(datos)    # Media\n\n[1] 20\n\nmedian(datos)  # Mediana\n\n[1] 20\n\nsd(datos)      # Desviación estándar\n\n[1] 7.905694\n\n# Crear un histograma de los datos\nhist(datos,\n     main = \"Distribución de los Datos\",\n     xlab = \"Valores\",\n     ylab = \"Frecuencia\",\n     col = \"lightblue\",\n     border = \"black\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenido",
+    "section": "",
+    "text": "Este blog se crea en el contexto del Máster en Técnicas Cuantitativas en Gestión Empresarial de la Universidad de Granada (UGR) España, en la asignatura Herramientas Informáticas: Habilidades para la Investigación y el Trabajo Fin de Máster, impartida por el Dr. Román Salmerón Gómez.\nEn este espacio encontrarás entradas relacionadas con: - Estadística Descriptiva. - Inferencia Estadística. - Regresión Lineal Múltiple.\nCada tema está acompañado de ejemplos prácticos utilizando R y RStudio, integrando conceptos teóricos y aplicaciones reales."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre mí",
+    "section": "",
+    "text": "Soy Flavio Muñoz Troncoso, Doctor en Psicología por la Universidad de Extremadura y estudiante del Máster en Técnicas Cuantitativas en Gestión Empresarial en la Universidad de Granada. Mi experiencia abarca docencia, investigación y gestión educativa, con un enfoque en psicometría, estadística aplicada y análisis de datos en contextos educativos y sociales.\nEste espacio está diseñado para compartir conceptos y aplicaciones prácticas de la estadística, con énfasis en herramientas como R y RStudio.\nEste blog incluye:\n\nEstadística descriptiva.\nInferencia estadística.\nRegresión lineal múltiple."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "",
+    "section": "",
+    "text": "Código"
+  },
+  {
+    "objectID": "cv.html#datos-personales",
+    "href": "cv.html#datos-personales",
+    "title": "",
+    "section": "1.1 Datos Personales",
+    "text": "1.1 Datos Personales\n\nNombre y Apellidos: Flavio Muñoz Troncoso\n\nTeléfono: +56 9 9843 XXXX\n\nCorreo Electrónico: flaviomunoz@gmail.com"
+  },
+  {
+    "objectID": "cv.html#formación-académica",
+    "href": "cv.html#formación-académica",
+    "title": "",
+    "section": "1.2 Formación Académica",
+    "text": "1.2 Formación Académica\n\nDoctor en Psicología (2024)\nUniversidad de Extremadura (España).\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial (2025, en curso)\nUniversidad de Granada (España).\nMagíster en Gestión Escolar (2014)\nUniversidad Católica de Temuco (Chile).\nPostítulo en Educación Matemática (2010)\nUniversidad de La Frontera (Chile).\nProfesor de Educación Básica y Licenciado en Educación (2008)\nUniversidad Austral de Chile."
+  },
+  {
+    "objectID": "cv.html#experiencia-profesional",
+    "href": "cv.html#experiencia-profesional",
+    "title": "",
+    "section": "1.3 Experiencia Profesional",
+    "text": "1.3 Experiencia Profesional\n\nInspector General, Colegio Siglo XXI de Temuco (2019 - Actualidad).\n\nDocente de Postgrados en Educación, Universidad Mayor (2018 - Actualidad).\n\nInspector General, Liceo Gabriela Mistral, Temuco (2018 - 2019).\n\nDocente Carreras de Educación, Universidad La República, Temuco (2014 - 2019).\n\nInspector General, Colegio Montessori de Temuco (2012 - 2018).\n\nDocente de Aula, Escuela Arturo Prat y Escuela Las Américas, Temuco (2010 - 2011).\n\nEncargado de Informática, Colegio Ñielol Che Kimün, Temuco (2005 - 2010)."
+  },
+  {
+    "objectID": "cv.html#reconocimientos",
+    "href": "cv.html#reconocimientos",
+    "title": "",
+    "section": "1.4 Reconocimientos",
+    "text": "1.4 Reconocimientos\n\nPremio Extraordinario de Doctorado (2024)\nUniversidad de Extremadura (España).\nDistinción otorgada por excelencia académica e investigadora en el ámbito de Ciencias Sociales y Jurídicas."
+  },
+  {
+    "objectID": "cv.html#visión-y-motivación",
+    "href": "cv.html#visión-y-motivación",
+    "title": "",
+    "section": "1.5 Visión y Motivación",
+    "text": "1.5 Visión y Motivación\nMi interés está en desarrollar investigaciones avanzadas en psicometría y metodologías cuantitativas, aplicadas a contextos educativos y escolares.\nBusco aportar al desarrollo académico mediante la generación de conocimiento, la validación de instrumentos psicométricos y la formación de nuevas generaciones de investigadores."
+  },
+  {
+    "objectID": "cv.html#publicaciones",
+    "href": "cv.html#publicaciones",
+    "title": "",
+    "section": "1.6 Publicaciones",
+    "text": "1.6 Publicaciones\n\nBecerra, S., Muñoz, F., & Riquelme, E. (2015). School Violence and School Coexistence Management: Unresolved Challenges. Procedia - Social and Behavioral Sciences, 190, 156-163. https://doi.org/10.1016/j.sbspro.2015.05.030\nBizama-Colihuinca, K., Riquelme-Mella, E., Fuentes-Vilugrón, G., & Muñoz-Troncoso, F. (2023). Teaching of Educational Content Expressing Mapuche Values to Children in Initial Education in La Araucanía Region, Chile. Education Sciences, 13(7). https://doi.org/10.3390/educsci13070683\nCaamaño-Navarrete, F., Arriagada-Hernández, C., Fuentes-Vilugrón, G., Jara-Tomckowiack, L., Levin-Catrilao, A., del Val Martín, P., Muñoz-Troncoso, F., & Delgado-Floody, P. (2024). Healthy Lifestyle Related to Executive Functions in Chilean University Students: A Pilot Study. Healthcare, 12(10). https://doi.org/10.3390/healthcare12101022\nFuentes-Vilugrón, G., Saavedra-Vallejos, E., Riquelme-Mella, E., Arriagada-Hernández, C., & Muñoz-Troncoso, F. (2023). Regulación emocional y cultura en contextos escolares. European Journal of Education and Psychology, 16(2), 1-26. https://doi.org/10.32457/ejep.v16i2.2201\nFuentes-Vilugrón, G., Sandoval-Obando, E., Caamaño-Navarrete, F., Arriagada-Hernández, C., Etchegaray-Pezo, P., Muñoz-Troncoso, F., Cuadrado-Gordillo, I., Del Val Martín, P., & Riquelme-Mella, E. (2024). Difficulties among Teachers’ Emotional Regulation: Analysis for the Development of Student Well-Being in Chilean Schools. Behavioral Sciences, 14(9), 749. https://doi.org/10.3390/bs14090749\nMuñoz, F. (2014). Elaboración y Validación Psicométrica del Cuestionario de Convivencia Escolar Para la No Violencia (CENVI), en Escolares de la Ciudad de Temuco, Chile. [Tesis de Magíster, Universidad Católica de Temuco]. http://repositoriodigital.uct.cl/handle/10925/2453\nMuñoz, F. (2022a). Medición de riesgos psicosociales en un centro escolar de Temuco (Chile). En M. Bermúdez & A. Chaves (Coord.) Investigación y transferencia de las ciencias sociales frente a un mundo de crisis (pp. 554-570). Dykinson S. L. https://bit.ly/3LvOads\nMuñoz, F. (2022b). Violencia y gestión de la convivencia en una escuela de Temuco-Chile: Resultados del cuestionario CENVI. En C. Vega & A. Vico (Coord.) Investigaciones teóricas y experiencias prácticas para la equidad en educación (pp. 1049-1073). Dykinson S. L. https://bit.ly/3TsK218\nMuñoz, F., Becerra, S., & Riquelme, E. (2017). Elaboración y validación psicométrica del cuestionario de convivencia escolar para la no violencia (CENVI). Estudios Pedagógicos (Valdivia), 43(3), 205-223. https://doi.org/10.4067/S0718-07052017000300012\nMuñoz, F., & Muñoz, G. (2021). Violencia en escuelas insertas en contextos de comunidades mapuche en la región de la Araucanía, Chile. En A. Cotán y J. Ruíz (Coord.) Muros de discriminación & exclusión en la construcción de identidades: La mirada de las Ciencias Sociales (pp. 1913-1931). Dykinson S. L. https://bit.ly/3B0XvbO\nMuñoz, G., Aranciabia, M., & Muñoz-Troncoso, F. (2023). Descolonizar la escuela intercultural: Limitaciones y posibilidades en territorio Mapuche (Chile). IV Coloquio Internacional en Educación, Interculturalidad y Territorio, Santa Marta.\nMuñoz-Troncoso, F. (2024). Violencia escolar en espacios de diversidad social y cultural en contexto mapuche. https://doi.org/10.13140/RG.2.2.24320.65284\nMuñoz-Troncoso, F., Cuadrado-Gordillo, I., Riquelme-Mella, E., Miranda-Zapata, E., & Ortiz-Velosa, E. (2023). Perception of School Violence: Indicators of Normalization in Mapuche and Non-Mapuche Students. International Journal of Environmental Research and Public Health, 20(1). https://doi.org/10.3390/ijerph20010024\nMuñoz-Troncoso, F., Cuadrado-Gordillo, I., Riquelme-Mella, E., Muñoz-Troncoso, G., Miranda-Zapata, E., Bizama-Colihuinca, K., & Legaz-Vladímirskaya, E. (2023). Validation of an abbreviated scale of the CENVI questionnaire to evaluate the perception of school violence and coexistence management of Chilean students: Differences between pandemic and post-pandemic. Behavioral Sciences, 13(8), 686. https://doi.org/10.3390/bs13080686\nMuñoz-Troncoso, F., Halberstadt, A., Cuadrado-Gordillo, I., Riquelme-Mella, E., Miranda-Zapata, E., Legaz-Vladímirskaya, E., Sepúlveda-Bernales, V., Salamanca-Aroca, C., & Muñoz-Troncoso, G. (2024). Validation of the questionnaire to measure Chilean Teachers’ Perception of School Violence and Coexistence Management (VI+GEC). Frontiers in Psychology Sec. Quantitative Psychology and Measurement, 15, 1-10. https://doi.org/10.3389/fpsyg.2024.1352399\nMuñoz-Troncoso, F., Riquelme-Mella, E., Halberstadt, A. G., Montero, I., Sepúlveda-Bernales, V., Fuentes-Vilugrón, G., Miranda-Zapata, E., Legaz-Vladímirskaya, E., Caamaño-Navarrete, F., & Muñoz-Troncoso, G. (2024). Emotional Regulation Challenges in Chilean Teachers: An Analysis of the Measurement Invariance of the DERS-E and the Influence of Gender and Age. Journal of Intelligence, 12(9), 86. https://doi.org/10.3390/jintelligence12090086"
+  },
+  {
+    "objectID": "inferencia.html",
+    "href": "inferencia.html",
+    "title": "",
+    "section": "",
+    "text": "Código"
+  },
+  {
+    "objectID": "inferencia.html#conceptos-clave",
+    "href": "inferencia.html#conceptos-clave",
+    "title": "",
+    "section": "1.1 Conceptos Clave",
+    "text": "1.1 Conceptos Clave\n\nHipótesis:\n\nHipótesis nula (H₀): No hay diferencia significativa entre los grupos.\nHipótesis alternativa (H₁): Existe una diferencia significativa.\n\nSignificación estadística:\n\nUn p-valor menor a 0.05 indica que podemos rechazar la hipótesis nula con un 95% de confianza.\n\nErrores:\n\nError Tipo I: Rechazar una hipótesis nula verdadera.\nError Tipo II: No rechazar una hipótesis nula falsa."
+  },
+  {
+    "objectID": "inferencia.html#métodos-comunes",
+    "href": "inferencia.html#métodos-comunes",
+    "title": "",
+    "section": "1.2 Métodos Comunes",
+    "text": "1.2 Métodos Comunes\nEntre los métodos más utilizados para probar hipótesis se encuentran: - Pruebas paramétricas: como la prueba t y el ANOVA. - Pruebas no paramétricas: como la prueba de Mann-Whitney y la prueba de Wilcoxon."
+  },
+  {
+    "objectID": "inferencia.html#ejemplo-aplicado",
+    "href": "inferencia.html#ejemplo-aplicado",
+    "title": "",
+    "section": "1.3 Ejemplo Aplicado",
+    "text": "1.3 Ejemplo Aplicado\nSupongamos que queremos comparar los resultados de dos grupos de estudiantes después de aplicar diferentes métodos de enseñanza. Usaremos una prueba t para determinar si existe una diferencia significativa entre los grupos."
+  },
+  {
+    "objectID": "inferencia.html#ejemplo-código-en-r-y-resultados",
+    "href": "inferencia.html#ejemplo-código-en-r-y-resultados",
+    "title": "",
+    "section": "1.4 Ejemplo código en R y Resultados",
+    "text": "1.4 Ejemplo código en R y Resultados\n\n# Generar datos\ngrupo1 &lt;- c(70, 75, 80, 85, 90)\ngrupo2 &lt;- c(60, 65, 70, 75, 80)\n\n# Realizar la prueba t\nresultado &lt;- t.test(grupo1, grupo2)\n\n# Imprimir el resultado\nprint(resultado)\n\n\n    Welch Two Sample t-test\n\ndata:  grupo1 and grupo2\nt = 2, df = 8, p-value = 0.08052\nalternative hypothesis: true difference in means is not equal to 0\n95 percent confidence interval:\n -1.530021 21.530021\nsample estimates:\nmean of x mean of y \n       80        70 \n\n# Crear un boxplot para los grupos\ndatos &lt;- data.frame(\n  puntaje = c(grupo1, grupo2),\n  grupo = rep(c(\"Método A\", \"Método B\"), each = 5)\n)\n\nboxplot(puntaje ~ grupo, data = datos,\n        main = \"Comparación de Grupos\",\n        xlab = \"Método de Enseñanza\",\n        ylab = \"Puntaje\")"
+  },
+  {
+    "objectID": "regresion_lineal.html",
+    "href": "regresion_lineal.html",
+    "title": "",
+    "section": "",
+    "text": "Código"
+  },
+  {
+    "objectID": "regresion_lineal.html#conceptos-clave",
+    "href": "regresion_lineal.html#conceptos-clave",
+    "title": "",
+    "section": "1.1 Conceptos Clave",
+    "text": "1.1 Conceptos Clave\n\nVariables:\n\nVariable dependiente: La que se desea predecir o explicar.\nVariables independientes: Las que se utilizan para predecir la dependiente.\n\nCoeficientes de regresión:\n\nRepresentan el cambio esperado en la variable dependiente por cada unidad de cambio en una variable independiente, manteniendo las demás constantes.\n\nR²:\n\nIndica qué proporción de la variabilidad de la variable dependiente es explicada por el modelo."
+  },
+  {
+    "objectID": "regresion_lineal.html#ejemplo-aplicado",
+    "href": "regresion_lineal.html#ejemplo-aplicado",
+    "title": "",
+    "section": "1.2 Ejemplo Aplicado",
+    "text": "1.2 Ejemplo Aplicado\nSupongamos que queremos analizar cómo influyen el nivel educativo y la experiencia laboral en el ingreso mensual de un grupo de personas.\n\n1.2.1 Código en R\n\n# Crear un conjunto de datos ficticio\nset.seed(123)  # Para reproducibilidad\ndatos &lt;- data.frame(\n  ingreso = c(4000, 4500, 5000, 5200, 5800),\n  educacion = c(12, 14, 16, 15, 18),\n  experiencia = c(1, 3, 5, 4, 7)\n)\n\n# Ajustar el modelo de regresión lineal múltiple\nmodelo &lt;- lm(ingreso ~ educacion + experiencia, data = datos)\n\n# Mostrar el resumen del modelo\nsummary(modelo)\n\n\nCall:\nlm(formula = ingreso ~ educacion + experiencia, data = datos)\n\nResiduals:\n   1    2    3    4    5 \n -15 -105 -195  300   15 \n\nCoefficients: (1 not defined because of singularities)\n            Estimate Std. Error t value Pr(&gt;|t|)   \n(Intercept)   475.00     729.67   0.651  0.56148   \neducacion     295.00      48.22   6.118  0.00878 **\nexperiencia       NA         NA      NA       NA   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 215.6 on 3 degrees of freedom\nMultiple R-squared:  0.9258,    Adjusted R-squared:  0.9011 \nF-statistic: 37.43 on 1 and 3 DF,  p-value: 0.008777\n\n# Gráfico de dispersión para ingreso vs educación\nplot(datos$educacion, datos$ingreso, \n     main = \"Relación entre Educación e Ingreso\",\n     xlab = \"Años de Educación\",\n     ylab = \"Ingreso Mensual\")\n\n# Agregar la línea ajustada\nabline(lm(ingreso ~ educacion, data = datos), col = \"blue\")"
   }
 ]
